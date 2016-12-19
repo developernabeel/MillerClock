@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Time Elapsed</h2>
+<div>
+    <span id="timeElapsed"></span>
+</div>
+
+<script src="~/Scripts/jquery-3.1.0.min.js"></script>
+<script>
+    $(function () {
+
+        $.ajax({
+            type: 'POST',
+            url : '@Url.Action("GetTimeElapsed","Home")',
+            success : function(json){
+                console.log(json);
+                var text = json.hours + ' hours, ' + json.minutes + ' minutes and ' + json.seconds + ' seconds.';
+                $('#timeElapsed').html(text);
+            }
+        });
+    });
+</script>

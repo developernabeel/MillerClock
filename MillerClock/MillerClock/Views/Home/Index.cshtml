@@ -3,23 +3,54 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Time Elapsed</h2>
 <div>
-    <span id="timeElapsed"></span>
+    <p><strong>Time Elapsed on Miller's Planet</strong> </p>
+    <span id="millerTimeElapsed"></span>
+</div>
+<div>
+    <p><strong>Time elapsed on earth</strong></p>
+    <span id="earthTimeElapsed"></span>
 </div>
 
 <script src="~/Scripts/jquery-3.1.0.min.js"></script>
 <script>
     $(function () {
 
-        $.ajax({
-            type: 'POST',
-            url : '@Url.Action("GetTimeElapsed","Home")',
-            success : function(json){
-                console.log(json);
-                var text = json.hours + ' hours, ' + json.minutes + ' minutes and ' + json.seconds + ' seconds.';
-                $('#timeElapsed').html(text);
-            }
-        });
+        (function init() {
+            updateTime();
+            setInterval(updateTime, 1000);
+        })();
+
+        function updateTime() {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("GetTimeElapsed","Home")',
+                success: function (json) {
+                    var millerTime = json.millerTime;
+                    var earthTime = json.earthTime;
+                    setMillerTime(millerTime.hours, millerTime.minutes, millerTime.seconds);
+                    setEarthTime(earthTime.days, earthTime.hours, earthTime.minutes, earthTime.seconds);
+                }
+            });
+        }
+
+        function setMillerTime(hours, minutes, seconds) {
+            var hourString = hours > 1 ? 'hours' : 'hour';
+            var minuteString = minutes > 1 ? 'minutes' : 'minute';
+            var secondString = seconds > 1 ? 'seconds' : 'second';
+
+            var text = hours + ' ' + hourString + ', ' + minutes + ' ' + minuteString + ' and ' + seconds + ' ' + secondString;
+            $('#millerTimeElapsed').html(text);
+        }
+
+        function setEarthTime(days, hours, minutes, seconds) {
+            var dayString = days > 1 ? 'days' : 'day';
+            var hourString = hours > 1 ? 'hours' : 'hour';
+            var minuteString = minutes > 1 ? 'minutes' : 'minute';
+            var secondString = seconds > 1 ? 'seconds' : 'second';
+
+            var text = days + ' ' + dayString + ', ' + hours + ' ' + hourString + ', ' + minutes + ' ' + minuteString + ' and ' + seconds + ' ' + secondString;
+            $('#earthTimeElapsed').html(text);
+        }
     });
 </script>

@@ -6,20 +6,28 @@ using System.Web.Mvc;
 
 namespace MillerClock.Controllers
 {
+    /// <summary>
+    /// Following is the calculation to find out how long is 1 second on Miller's planet
+    /// 
+    /// Symbols used :
+    /// eSec = Earth Second
+    /// eYr = Earth Year
+    /// mSec = Miller Second
+    /// mHr = Miller Hour
+    /// 
+    /// Calculation :
+    /// We know that 1 hour on Miller's planet is equivalent to 7 years on Earth
+    /// 1 mHr = 7 eYr
+    /// 1 eYr = 31556926 eSec
+    /// 7 eYr = 31556926 * 7 eSec = 220898482 eSec
+    /// Thus 
+    /// 1 mHr = 220898482 eSec
+    /// 3600 mSec = 220898482 eSec
+    /// Divide both by 3600
+    /// 1 mSec = 61360.6894 eSec
+    /// </summary>
     public class HomeController : Controller
     {
-        /*
-         * Following is the calculation Miller's time
-         * 1 mHr = 7 eYr
-         * 1 eYr = 31556926 eSec
-         * 7 eYr = 31556926 * 7 eSec = 220898482 eSec
-         * Thus 
-         * 1 mHr = 220898482 eSec
-         * 3600 mSec = 220898482 eSec
-         * Divide both by 3600
-         * 1 mSec = 61360.6894 eSec
-         */
-
         // 1 Miller Second = 61360.6894 Earth Seconds
         private const double OneMillerSecond = 61360.6894;
 
@@ -45,9 +53,19 @@ namespace MillerClock.Controllers
 
             return Json(new
             {
-                hours = millerTimeDifference.Hours,
-                minutes = millerTimeDifference.Minutes,
-                seconds = millerTimeDifference.Seconds
+                earthTime = new
+                {
+                    days = timeDifference.Days,
+                    hours = timeDifference.Hours,
+                    minutes = timeDifference.Minutes,
+                    seconds = timeDifference.Seconds
+                },
+                millerTime = new
+                {
+                    hours = millerTimeDifference.Hours,
+                    minutes = millerTimeDifference.Minutes,
+                    seconds = millerTimeDifference.Seconds
+                }
             });
         }
     }

@@ -1,10 +1,10 @@
 ﻿@{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Miller Clock";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div id="title">INTERSTELLAR</div>
-<div id="center-div">
+<div id="center-div" style="display:none">
     <div>
         <span class="heading heading-large"><strong>Time elapsed on Miller's Planet</strong> </span>
         <span id="millerTimeElapsed" class="heading heading-medium"></span>
@@ -42,6 +42,7 @@
                     var earthTime = json.earthTime;
                     setMillerTime(millerTime.hours, millerTime.minutes, millerTime.seconds);
                     setEarthTime(earthTime.days, earthTime.hours, earthTime.minutes, earthTime.seconds);
+                    $('#center-div').show();
                 }
             });
         }

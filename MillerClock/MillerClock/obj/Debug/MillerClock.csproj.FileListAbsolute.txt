@@ -1,0 +1,52 @@
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\MillerClock.dll.config
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\MillerClock.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\MillerClock.pdb
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\Antlr3.Runtime.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\EntityFramework.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\Newtonsoft.Json.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.Mvc.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.Optimization.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.Providers.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.Razor.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.WebPages.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\WebGrease.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\EntityFramework.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\Newtonsoft.Json.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.Mvc.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.Razor.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.WebPages.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\Visual Studio\MillerClock\MillerClock\obj\Debug\MillerClock.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio\MillerClock\MillerClock\obj\Debug\MillerClock.dll
+D:\Workspace\Visual Studio\MillerClock\MillerClock\obj\Debug\MillerClock.pdb
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\MillerClock.dll.config
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\MillerClock.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\MillerClock.pdb
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\Antlr3.Runtime.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\EntityFramework.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\Newtonsoft.Json.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.Mvc.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.Optimization.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.Providers.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.Razor.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.WebPages.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\WebGrease.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\EntityFramework.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\Newtonsoft.Json.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.Mvc.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.Razor.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.WebPages.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\obj\Debug\MillerClock.csprojResolveAssemblyReference.cache
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\obj\Debug\MillerClock.dll
+D:\Workspace\Github\MillerClock\MillerClock\MillerClock\obj\Debug\MillerClock.pdb

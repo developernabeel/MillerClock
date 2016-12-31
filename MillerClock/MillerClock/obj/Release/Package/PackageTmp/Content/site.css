@@ -1,0 +1,71 @@
+﻿html {
+    background: url(Images/interstellar.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#title{
+    font-size: xx-large;
+    color: white;
+    text-align:center;
+    letter-spacing: 13px;
+    font-family: monospace;
+    margin:20px;
+}
+
+.heading{
+    color: white;
+    font-family: sans-serif;
+}
+
+.heading-large {
+    font-size: xx-large;
+    display:block;
+    margin:10px;
+}
+
+.heading-medium {
+    font-size: large;
+    display:block;
+}
+
+.heading-small{
+    font-size: small;
+    display:block;
+    margin:10px;
+}
+
+#center-div {
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: black;
+    opacity: 0.6;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#footer-holder{
+    width: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+    text-align: center;
+
+    font-size: 17px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: white;
+}
